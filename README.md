@@ -66,7 +66,7 @@ FROM layoffs_staging2
 WHERE row_num > 1;
 ```
 
-### Updating null and empty values
+### 2. Updating null and empty values
 ```sql
 UPDATE layoffs_staging2 t1
 JOIN layoffs_staging t2
@@ -76,7 +76,7 @@ WHERE t1.industry IS NULL
 AND t2.industry IS NOT NULL;
 ```
 
-### Removing columns and rows
+### 3. Removing columns and rows
 ```sql
 DELETE
 FROM layoffs_staging2
