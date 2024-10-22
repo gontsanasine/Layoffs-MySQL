@@ -14,6 +14,7 @@ The main objectives of this project are to:
 
 ### Tools Used
 SQL: Utilized SQL for querying and manipulating the dataset, performing data cleaning tasks, and ensuring data integrity.
+
 Database Management System: Employed a relational database management system (MySQL) for data storage and management.
  
 ## Data Cleaning Process
